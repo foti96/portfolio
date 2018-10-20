@@ -1,0 +1,85 @@
+name: Portfolio
+description: ""
+author: "Josh Foti"
+homepage: joshfoti.net.au
+code: ""
+
+form:
+    fields:
+        site_name:
+            label: Site Name
+            comment: Name of the website
+            default: My Portfolio
+    tabs:
+        fields:
+            seo_keywords:
+                label: Site Keywords
+                comment: SEO Keywords
+                default: portfolio
+                tab: SEO
+            seo_description:
+                label: Site Description
+                comment: SEO Description
+                default: My Portfolio
+                tab: SEO
+            seo_featured_image:
+                label: Site Featured Image
+                comment: SEO Featured Image
+                tab: SEO
+            color_primary:
+                label: Primary Color
+                type: colorpicker
+                tab: Colours
+                availableColors: ['#FFFFFF', '#FDFCFE', '#9BFFFF', '#00FFF6', '#1CE4FE', '#004D9A', '#5319BE', '#072C32', '#707070', '#0A0A0A', '#040404', '#000000']
+                assetVar: "colorPrimary"
+            color_secodary:
+                label: secondary Color
+                type: colorpicker
+                tab: Colours
+                availableColors: ['#FFFFFF', '#FDFCFE', '#9BFFFF', '#00FFF6', '#1CE4FE', '#004D9A', '#5319BE', '#072C32', '#707070', '#0A0A0A', '#040404', '#000000']
+                assetVar: "colorSecondary"
+            color_background:
+                label: Background Color
+                type: colorpicker
+                tab: Colours
+                availableColors: ['#FFFFFF', '#FDFCFE', '#9BFFFF', '#00FFF6', '#1CE4FE', '#004D9A', '#5319BE', '#072C32', '#707070', '#0A0A0A', '#040404', '#000000']
+                assetVar: "colorBackground"
+            color_accent:
+                label: Accent Color
+                type: colorpicker
+                tab: Colours
+                availableColors: ['#FFFFFF', '#FDFCFE', '#9BFFFF', '#00FFF6', '#1CE4FE', '#004D9A', '#5319BE', '#072C32', '#707070', '#0A0A0A', '#040404', '#000000']
+                assetVar: "colorAccent"
+            color_footer:
+                label: Footer Color
+                type: colorpicker
+                tab: Colours
+                availableColors: ['#FFFFFF', '#FDFCFE', '#9BFFFF', '#00FFF6', '#1CE4FE', '#004D9A', '#5319BE', '#072C32', '#707070', '#0A0A0A', '#040404', '#000000']
+                assetVar: "colorFooter"
+            color_text:
+                label: Text Color
+                type: colorpicker
+                tab: Colours
+                availableColors: ['#FFFFFF', '#FDFCFE', '#9BFFFF', '#00FFF6', '#1CE4FE', '#004D9A', '#5319BE', '#072C32', '#707070', '#0A0A0A', '#040404', '#000000']
+                assetVar: "colorText"
+            font_url:
+                label: Font Url
+                type: text
+                comment: Fonts can be chosen from any cdn paste url here
+                tab: Fonts
+                default: "https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Slab:700"
+                assetVar: "fontChoice"
+            font_headdings:
+                label: Headings Font
+                type: text
+                comment: Name of Heading Font
+                tab: Fonts
+                default: "Roboto Slab"
+                assetVar: "fontHeading"
+            font_text:
+                label: Body Font
+                type: text
+                comment: Name of Body Font
+                tab: Fonts
+                default: "Open Sans"
+                assetVar: "fontBody"

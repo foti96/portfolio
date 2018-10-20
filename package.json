@@ -1,0 +1,29 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "laravel elizer",
+  "main": "gulpfile.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/foti96/portfolio.git"
+  },
+  "author": "josh foti",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/foti96/portfolio/issues"
+  },
+  "homepage": "https://github.com/foti96/portfolio#readme",
+  "dependencies": {
+    "laravel-elixir": "^6.0.0-18",
+    "laravel-elixir-rollup-official": "^1.1.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}

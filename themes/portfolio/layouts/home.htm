@@ -1,0 +1,44 @@
+[staticPage]
+useContent = 1
+default = 0
+==
+
+{% partial 'head' %}
+{% partial 'nav' %}
+
+<!-- hero -->
+{variable name="pageHeading" label="Heading" tab="Hero" type="text" placement=primary}{/variable}
+{variable name="pageSubHeading" label="Sub Heading" tab="Hero" type="text" placement=primary}{/variable}
+{variable name="pageSubHeading" label="Sub Heading" tab="Hero" type="text" placement=primary}{/variable}
+{variable name="video" label="Sub Heading" tab="Hero" type="mediafinder" mode="video" placement=primary}{/variable}
+
+<!-- protfolio -->
+{variable name="portfolioHeading" label="Heading" tab="Portfolio" type="text" placement=primary}{/variable}
+
+
+<!-- about -->
+{variable name="aboutHeading" label="Heading" tab="About" type="text" placement=primary}{/variable}
+{variable name="aboutBody" label="Body" tab="About" type="textarea" mode="markdown" placement=primary}{/variable}
+{variable name="aboutImage" label="Image" tab="About" type="mediafinder" mode="image" placement=primary}{/variable}
+
+{variable name="aboutSubHeading" label="Sub Heading" tab="About" type="text" placement=primary}{/variable}
+
+{variable name="aboutDesignIcon" label="Design Icon" tab="About" type="mediafinder" mode="image" placement=primary}{/variable}
+{variable name="aboutDesignHeading" label="Design Heading" tab="About" type="text" placement=primary}{/variable}
+{repeater name="aboutDesign" promt="add more" tab="about" placement="primray"}
+{variable name="text" label="text" type="text"}
+{/repeater}
+
+{variable name="aboutDevelopIcon" label="Develop Icon" tab="About" type="mediafinder" mode="image" placement=primary}{/variable}
+{variable name="aboutDevelopHeading" label="Develop Heading" tab="About" type="text" placement=primary}{/variable}
+{repeater name="aboutDevelop" promt="add more" tab="about" placement="primray"}
+{variable name="text" label="text" type="text"}
+{/repeater}
+
+
+
+<!-- contact -->
+{variable name="ContactHeading" label="Contact Heading" tab="Contact" type="text" placement=primary}{/variable}
+
+
+{% partial 'footer' %}
